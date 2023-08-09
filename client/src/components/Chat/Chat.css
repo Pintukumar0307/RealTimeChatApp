@@ -1,0 +1,39 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  
+  .container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 20px;
+    height: 90vh;
+    width: 70vw;
+    margin-right:10px ;
+  }
+  
+  @media (max-width: 800px) {
+    .outerContainer {
+      height: 100%;
+     
+    }
+    .container-1{
+      display: none;
+    }
+  
+    .container-2 {
+      width: 100%;
+      height:100%;
+     
+      
+    }
+    
+  }
+  
+ 
+  

@@ -1,0 +1,5 @@
+/server/node_modules
+/server/data/config.env
+
+/client/node_modules
+/clent/build
